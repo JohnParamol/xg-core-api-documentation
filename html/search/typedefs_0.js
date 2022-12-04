@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['terrorcallback_0',['TErrorCallback',['../namespacexg__core.html#aab0c64228fa5acaa817782ca131b8203',1,'xg_core']]],
-  ['thandlelut1d_1',['THandleLut1D',['../namespacexg__core.html#aa1fa6a057dd233ca2a25d1abe8220a84',1,'xg_core']]],
-  ['thandlelut3d_2',['THandleLut3D',['../namespacexg__core.html#aa0c75afbac4f0f33eeb641222b7d10df',1,'xg_core']]],
-  ['thandlenode_3',['THandleNode',['../namespacexg__core.html#a6f79970a5e51f5f931426ab952ae12e8',1,'xg_core']]],
-  ['thandlenodeclassdescription_4',['THandleNodeClassDescription',['../namespacexg__core.html#af1b09fae0560ef8f7a4e8e3a3e9057e2',1,'xg_core']]],
-  ['thandlenodemanager_5',['THandleNodeManager',['../namespacexg__core.html#a03f7601d89e9d7024a70af8cd8e87415',1,'xg_core']]],
-  ['thandlenodeparam_6',['THandleNodeParam',['../namespacexg__core.html#a7ffae7e9866e3aeaadb49334711719f8',1,'xg_core']]]
+  ['hlut1d_0',['HLut1D',['../namespacexg__core.html#a733ea2b4a7bf7d5cef48e6eeaa35ab96',1,'xg_core']]],
+  ['hlut3d_1',['HLut3D',['../namespacexg__core.html#a6e28a71588200e95ba7102d40f594761',1,'xg_core']]],
+  ['hnode_2',['HNode',['../namespacexg__core.html#a4ab0fe9557117763699beeaf5a7c75de',1,'xg_core']]],
+  ['hnodeclassdescription_3',['HNodeClassDescription',['../namespacexg__core.html#a4a2b0c40d167028d6f6f0d754770536d',1,'xg_core']]],
+  ['hnodemanager_4',['HNodeManager',['../namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265',1,'xg_core']]],
+  ['hnodeparam_5',['HNodeParam',['../namespacexg__core.html#a93d49c7dd9eedb800678fee83551f0fd',1,'xg_core']]]
 ];
