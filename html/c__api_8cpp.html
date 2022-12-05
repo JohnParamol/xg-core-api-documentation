@@ -939,7 +939,7 @@ Example code</h3>
 <div class="line"><a class="code hl_typedef" href="namespacexg__core.html#a6e28a71588200e95ba7102d40f594761">xg_core::HLut3D</a> lut = <a class="code hl_function" href="c__api_8cpp.html#a55382ff7d5069a2fdcdd9599178fa515">XGCoreNodeManagerCreateLut3DFromPipeline</a>(node_manager, 1, -1, 25);</div>
 <div class="line"><span class="keywordflow">if</span> (lut)</div>
 <div class="line">{</div>
-<div class="line">    <span class="comment">// apply resulting LUT to a buffer</span></div>
+<div class="line">    <span class="comment">// apply the resulting LUT to the buffer</span></div>
 <div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a1a690e1da1266cd09b2e9cb47556a938">XGCoreLut3DProcessRgbBuffer</a>(lut, (<span class="keywordtype">float</span>*)image_buffer, image_buffer_size);</div>
 <div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a3ed4bf178183ec9fcfc5ddd5be81ae9b">XGCoreLut3DDelete</a>(&amp;lut);</div>
 <div class="line">}</div>
