@@ -1,5 +1,4 @@
 var files_dup =
 [
-    [ "c_api.cpp", "c__api_8cpp.html", "c__api_8cpp" ],
-    [ "c_api.h", "c__api_8h.html", "c__api_8h" ]
+    [ "XG_Core", "dir_3a334ef8abf27c01a822055f3cf83926.html", "dir_3a334ef8abf27c01a822055f3cf83926" ]
 ];

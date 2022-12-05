@@ -16,6 +16,7 @@ var c__api_8cpp =
     [ "XGCoreNodeManagerGetNodeListCount", "c__api_8cpp.html#a7c3c1643a05d4fd17fecc0e69e01cc02", null ],
     [ "XGCoreNodeManagerAddNodeFromClassIndex", "c__api_8cpp.html#ad58765ed15daefc5a534feedc6146bd5", null ],
     [ "XGCoreNodeManagerProcessRgbBuffer", "c__api_8cpp.html#a0b07689bfe73828b51dca232c27bb108", null ],
+    [ "XGCoreNodeManagerCreateLut3DFromPipeline", "c__api_8cpp.html#a55382ff7d5069a2fdcdd9599178fa515", null ],
     [ "XGCoreNodeManagerGetNodeClassDescription", "c__api_8cpp.html#a95bee73b53b196fe07c3877b1f8f112f", null ],
     [ "XGCoreNodeClassDescriptionGetDescription", "c__api_8cpp.html#ab78fec02c39db9dd9d2569341f728734", null ],
     [ "XGCoreNodeClassDescriptionGetImageProcessMaxComplexity", "c__api_8cpp.html#a4348138a7b1ae3af5ae0c124258e7c1e", null ],

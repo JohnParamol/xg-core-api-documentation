@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>XG Core API documentation: c_api.cpp File Reference</title>
+<title>XG Core API documentation: F:/3DLUTCreator2_Development/XG_Core/wasm_src/c_api.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,7 +107,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a35477321a595ae66303f4f32c066d370"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <b>3D LUT</b> object.  <a href="c__api_8cpp.html#a35477321a595ae66303f4f32c066d370">More...</a><br /></td></tr>
 <tr class="separator:a35477321a595ae66303f4f32c066d370"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ed4bf178183ec9fcfc5ddd5be81ae9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a3ed4bf178183ec9fcfc5ddd5be81ae9b">XGCoreLut3DDelete</a> (<a class="el" href="namespacexg__core.html#a6e28a71588200e95ba7102d40f594761">HLut3D</a> *inout_lut)</td></tr>
-<tr class="memdesc:a3ed4bf178183ec9fcfc5ddd5be81ae9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a <b>3D LUT</b> object previously created by <a class="el" href="c__api_8h.html#ab8ab32a7ec792fcda2462aee2005c2c5" title="Create a 3D LUT object.">XGCoreLut3DCreate()</a>.  <a href="c__api_8cpp.html#a3ed4bf178183ec9fcfc5ddd5be81ae9b">More...</a><br /></td></tr>
+<tr class="memdesc:a3ed4bf178183ec9fcfc5ddd5be81ae9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a <b>3D LUT</b> object previously created by <a class="el" href="c__api_8h.html#ab8ab32a7ec792fcda2462aee2005c2c5" title="Create a 3D LUT object.">XGCoreLut3DCreate()</a> or by <a class="el" href="c__api_8h.html#a07a2d96fbd8bcb25b3bfed8d9ee8422b" title="Create 3D LUT object from a whole pipeline or from a pipeline segment.">XGCoreNodeManagerCreateLut3DFromPipeline()</a>.  <a href="c__api_8cpp.html#a3ed4bf178183ec9fcfc5ddd5be81ae9b">More...</a><br /></td></tr>
 <tr class="separator:a3ed4bf178183ec9fcfc5ddd5be81ae9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a636b87949092c752fdfd382d09f7738e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a636b87949092c752fdfd382d09f7738e">XGCoreLut3DGetData</a> (<a class="el" href="namespacexg__core.html#a6e28a71588200e95ba7102d40f594761">HLut3D</a> in_lut)</td></tr>
 <tr class="memdesc:a636b87949092c752fdfd382d09f7738e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get data array of a <b>3D LUT</b> object.  <a href="c__api_8cpp.html#a636b87949092c752fdfd382d09f7738e">More...</a><br /></td></tr>
@@ -145,6 +145,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a0b07689bfe73828b51dca232c27bb108"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a0b07689bfe73828b51dca232c27bb108">XGCoreNodeManagerProcessRgbBuffer</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">HNodeManager</a> in_manager, float *inout_buffer, int in_buffer_size, int in_proxy_lut_size)</td></tr>
 <tr class="memdesc:a0b07689bfe73828b51dca232c27bb108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process image buffer by a <b>Node Manager</b> object pipeline.  <a href="c__api_8cpp.html#a0b07689bfe73828b51dca232c27bb108">More...</a><br /></td></tr>
 <tr class="separator:a0b07689bfe73828b51dca232c27bb108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55382ff7d5069a2fdcdd9599178fa515"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> <a class="el" href="namespacexg__core.html#a6e28a71588200e95ba7102d40f594761">HLut3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a55382ff7d5069a2fdcdd9599178fa515">XGCoreNodeManagerCreateLut3DFromPipeline</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> in_manager, int in_first_node_index, int in_last_node_index, int in_lut_size)</td></tr>
+<tr class="memdesc:a55382ff7d5069a2fdcdd9599178fa515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create <b>3D LUT</b> object from a whole pipeline or from a pipeline segment.  <a href="c__api_8cpp.html#a55382ff7d5069a2fdcdd9599178fa515">More...</a><br /></td></tr>
+<tr class="separator:a55382ff7d5069a2fdcdd9599178fa515"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95bee73b53b196fe07c3877b1f8f112f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> <a class="el" href="namespacexg__core.html#a4a2b0c40d167028d6f6f0d754770536d">HNodeClassDescription</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a95bee73b53b196fe07c3877b1f8f112f">XGCoreNodeManagerGetNodeClassDescription</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">HNodeManager</a> in_manager, int in_index)</td></tr>
 <tr class="memdesc:a95bee73b53b196fe07c3877b1f8f112f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a <b>Node Class Description</b> object.  <a href="c__api_8cpp.html#a95bee73b53b196fe07c3877b1f8f112f">More...</a><br /></td></tr>
 <tr class="separator:a95bee73b53b196fe07c3877b1f8f112f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,7 +296,7 @@ Example code</h3>
 <div class="line"> </div>
 <div class="line">}</div>
 <div class="ttc" id="ac__api_8cpp_html_a189e5d6d802c87f4b4e52f77cc8bc52c"><div class="ttname"><a href="c__api_8cpp.html#a189e5d6d802c87f4b4e52f77cc8bc52c">XGCoreSetErrorCallback</a></div><div class="ttdeci">XG_API void XGCoreSetErrorCallback(xg_core::TErrorCallback callback)</div><div class="ttdoc">Set user error handler (callback function).</div><div class="ttdef"><b>Definition:</b> c_api.cpp:50</div></div>
-<div class="ttc" id="ac__api_8cpp_html_aef4cac471768a7ffc87c87157d809bec"><div class="ttname"><a href="c__api_8cpp.html#aef4cac471768a7ffc87c87157d809bec">main</a></div><div class="ttdeci">XG_API int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1339</div></div>
+<div class="ttc" id="ac__api_8cpp_html_aef4cac471768a7ffc87c87157d809bec"><div class="ttname"><a href="c__api_8cpp.html#aef4cac471768a7ffc87c87157d809bec">main</a></div><div class="ttdeci">XG_API int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1372</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -330,7 +333,7 @@ Example code</h3>
 <div class="line"><span class="comment">// ...</span></div>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#a3ed4bf178183ec9fcfc5ddd5be81ae9b">XGCoreLut3DDelete</a>(&amp;lut);</div>
 <div class="ttc" id="ac__api_8cpp_html_a35477321a595ae66303f4f32c066d370"><div class="ttname"><a href="c__api_8cpp.html#a35477321a595ae66303f4f32c066d370">XGCoreLut3DCreate</a></div><div class="ttdeci">XG_API HLut3D XGCoreLut3DCreate(int in_size, int in_channels)</div><div class="ttdoc">Create a 3D LUT object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:66</div></div>
-<div class="ttc" id="ac__api_8cpp_html_a3ed4bf178183ec9fcfc5ddd5be81ae9b"><div class="ttname"><a href="c__api_8cpp.html#a3ed4bf178183ec9fcfc5ddd5be81ae9b">XGCoreLut3DDelete</a></div><div class="ttdeci">XG_API void XGCoreLut3DDelete(HLut3D *inout_lut)</div><div class="ttdoc">Delete a 3D LUT object previously created by XGCoreLut3DCreate().</div><div class="ttdef"><b>Definition:</b> c_api.cpp:86</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a3ed4bf178183ec9fcfc5ddd5be81ae9b"><div class="ttname"><a href="c__api_8cpp.html#a3ed4bf178183ec9fcfc5ddd5be81ae9b">XGCoreLut3DDelete</a></div><div class="ttdeci">XG_API void XGCoreLut3DDelete(HLut3D *inout_lut)</div><div class="ttdoc">Delete a 3D LUT object previously created by XGCoreLut3DCreate() or by XGCoreNodeManagerCreateLut3DFr...</div><div class="ttdef"><b>Definition:</b> c_api.cpp:86</div></div>
 <div class="ttc" id="anamespacexg__core_html_a6e28a71588200e95ba7102d40f594761"><div class="ttname"><a href="namespacexg__core.html#a6e28a71588200e95ba7102d40f594761">xg_core::HLut3D</a></div><div class="ttdeci">class TLut3D * HLut3D</div><div class="ttdef"><b>Definition:</b> c_api.h:28</div></div>
 </div><!-- fragment --> 
 </div>
@@ -351,7 +354,7 @@ Example code</h3>
       </table>
 </div><div class="memdoc">
 
-<p>Delete a <b>3D LUT</b> object previously created by <a class="el" href="c__api_8h.html#ab8ab32a7ec792fcda2462aee2005c2c5" title="Create a 3D LUT object.">XGCoreLut3DCreate()</a>. </p>
+<p>Delete a <b>3D LUT</b> object previously created by <a class="el" href="c__api_8h.html#ab8ab32a7ec792fcda2462aee2005c2c5" title="Create a 3D LUT object.">XGCoreLut3DCreate()</a> or by <a class="el" href="c__api_8h.html#a07a2d96fbd8bcb25b3bfed8d9ee8422b" title="Create 3D LUT object from a whole pipeline or from a pipeline segment.">XGCoreNodeManagerCreateLut3DFromPipeline()</a>. </p>
 <h3><a class="anchor" id="autotoc_md2"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#a6e28a71588200e95ba7102d40f594761">xg_core::HLut3D</a> lut = <a class="code hl_function" href="c__api_8cpp.html#a35477321a595ae66303f4f32c066d370">XGCoreLut3DCreate</a>(25, 3);</div>
@@ -757,9 +760,9 @@ Example code</h3>
 <div class="line">    puts(s.c_str());</div>
 <div class="line">}</div>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#a24030c90c878c9e2965a5a6ff6398878">XGCoreNodeManagerDelete</a>(&amp;node_manager);</div>
-<div class="ttc" id="ac__api_8cpp_html_a2e41ab976e5d55044b792383636366e6"><div class="ttname"><a href="c__api_8cpp.html#a2e41ab976e5d55044b792383636366e6">XGCoreNodeManagerGetNodeListNode</a></div><div class="ttdeci">XG_API HNode XGCoreNodeManagerGetNodeListNode(HNodeManager in_manager, int in_index)</div><div class="ttdoc">Get a Node from the list of Node objects currently added by XGCoreNodeManagerAddNodeFromClassIndex().</div><div class="ttdef"><b>Definition:</b> c_api.cpp:569</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a2e41ab976e5d55044b792383636366e6"><div class="ttname"><a href="c__api_8cpp.html#a2e41ab976e5d55044b792383636366e6">XGCoreNodeManagerGetNodeListNode</a></div><div class="ttdeci">XG_API HNode XGCoreNodeManagerGetNodeListNode(HNodeManager in_manager, int in_index)</div><div class="ttdoc">Get a Node from the list of Node objects currently added by XGCoreNodeManagerAddNodeFromClassIndex().</div><div class="ttdef"><b>Definition:</b> c_api.cpp:602</div></div>
 <div class="ttc" id="ac__api_8cpp_html_a7c3c1643a05d4fd17fecc0e69e01cc02"><div class="ttname"><a href="c__api_8cpp.html#a7c3c1643a05d4fd17fecc0e69e01cc02">XGCoreNodeManagerGetNodeListCount</a></div><div class="ttdeci">XG_API int XGCoreNodeManagerGetNodeListCount(HNodeManager in_manager)</div><div class="ttdoc">Get the number of Node objects currently added by XGCoreNodeManagerAddNodeFromClassIndex().</div><div class="ttdef"><b>Definition:</b> c_api.cpp:356</div></div>
-<div class="ttc" id="ac__api_8cpp_html_aa5343c6698622e3a4c25f452a61a3525"><div class="ttname"><a href="c__api_8cpp.html#aa5343c6698622e3a4c25f452a61a3525">XGCoreNodeGetClassName</a></div><div class="ttdeci">XG_API int XGCoreNodeGetClassName(xg_core::HNode in_node, char *out_class_name)</div><div class="ttdoc">Get a class name for an existing Node.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:602</div></div>
+<div class="ttc" id="ac__api_8cpp_html_aa5343c6698622e3a4c25f452a61a3525"><div class="ttname"><a href="c__api_8cpp.html#aa5343c6698622e3a4c25f452a61a3525">XGCoreNodeGetClassName</a></div><div class="ttdeci">XG_API int XGCoreNodeGetClassName(xg_core::HNode in_node, char *out_class_name)</div><div class="ttdoc">Get a class name for an existing Node.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:635</div></div>
 <div class="ttc" id="ac__api_8cpp_html_ad58765ed15daefc5a534feedc6146bd5"><div class="ttname"><a href="c__api_8cpp.html#ad58765ed15daefc5a534feedc6146bd5">XGCoreNodeManagerAddNodeFromClassIndex</a></div><div class="ttdeci">XG_API HNode XGCoreNodeManagerAddNodeFromClassIndex(HNodeManager inout_manager, int in_index)</div><div class="ttdoc">Add a new Node object to a processing pipeline.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:389</div></div>
 <div class="ttc" id="anamespacexg__core_html_a4ab0fe9557117763699beeaf5a7c75de"><div class="ttname"><a href="namespacexg__core.html#a4ab0fe9557117763699beeaf5a7c75de">xg_core::HNode</a></div><div class="ttdeci">class TNode * HNode</div><div class="ttdef"><b>Definition:</b> c_api.h:29</div></div>
 </div><!-- fragment --> 
@@ -876,7 +879,72 @@ Example code</h3>
 <div class="line"> </div>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#a24030c90c878c9e2965a5a6ff6398878">XGCoreNodeManagerDelete</a>(&amp;node_manager);</div>
 <div class="ttc" id="ac__api_8cpp_html_a0b07689bfe73828b51dca232c27bb108"><div class="ttname"><a href="c__api_8cpp.html#a0b07689bfe73828b51dca232c27bb108">XGCoreNodeManagerProcessRgbBuffer</a></div><div class="ttdeci">XG_API void XGCoreNodeManagerProcessRgbBuffer(HNodeManager in_manager, float *inout_buffer, int in_buffer_size, int in_proxy_lut_size)</div><div class="ttdoc">Process image buffer by a Node Manager object pipeline.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:419</div></div>
-<div class="ttc" id="ac__api_8cpp_html_a5a0d4ee806f45823459bddf54daff102"><div class="ttname"><a href="c__api_8cpp.html#a5a0d4ee806f45823459bddf54daff102">XGCoreNodeRandomize</a></div><div class="ttdeci">XG_API void XGCoreNodeRandomize(xg_core::HNode in_node)</div><div class="ttdoc">Randomize Node object settings/parameters for rendering testing purposes.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1326</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a5a0d4ee806f45823459bddf54daff102"><div class="ttname"><a href="c__api_8cpp.html#a5a0d4ee806f45823459bddf54daff102">XGCoreNodeRandomize</a></div><div class="ttdeci">XG_API void XGCoreNodeRandomize(xg_core::HNode in_node)</div><div class="ttdoc">Randomize Node object settings/parameters for rendering testing purposes.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1359</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="a55382ff7d5069a2fdcdd9599178fa515" name="a55382ff7d5069a2fdcdd9599178fa515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55382ff7d5069a2fdcdd9599178fa515">&#9670;&#160;</a></span>XGCoreNodeManagerCreateLut3DFromPipeline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> <a class="el" href="namespacexg__core.html#a6e28a71588200e95ba7102d40f594761">HLut3D</a> XGCoreNodeManagerCreateLut3DFromPipeline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a>&#160;</td>
+          <td class="paramname"><em>in_manager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in_first_node_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in_last_node_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in_lut_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create <b>3D LUT</b> object from a whole pipeline or from a pipeline segment. </p>
+<h3><a class="anchor" id="autotoc_md15"></a>
+Example code</h3>
+<div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keywordtype">int</span> image_buffer_size = 4;</div>
+<div class="line">xg_core::TColor image_buffer[image_buffer_size] = { {0.6, 0.7, 0.8}, {0.1, 0.2, 0.3}, {1, 0.5, 0}, {-1, -0.5, 1.5} };</div>
+<div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
+<div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; node_class_count; ++i)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> repeat = 0; repeat &lt; 2; ++repeat)</div>
+<div class="line">    {</div>
+<div class="line">        <a class="code hl_function" href="c__api_8cpp.html#ad58765ed15daefc5a534feedc6146bd5">XGCoreNodeManagerAddNodeFromClassIndex</a>(node_manager, i);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"><span class="comment">// merge pipeline color transformation from third node to the last node into a 3D LUT of size 25</span></div>
+<div class="line"><a class="code hl_typedef" href="namespacexg__core.html#a6e28a71588200e95ba7102d40f594761">xg_core::HLut3D</a> lut = <a class="code hl_function" href="c__api_8cpp.html#a55382ff7d5069a2fdcdd9599178fa515">XGCoreNodeManagerCreateLut3DFromPipeline</a>(node_manager, 1, -1, 25);</div>
+<div class="line"><span class="keywordflow">if</span> (lut)</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">// apply resulting LUT to a buffer</span></div>
+<div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a1a690e1da1266cd09b2e9cb47556a938">XGCoreLut3DProcessRgbBuffer</a>(lut, (<span class="keywordtype">float</span>*)image_buffer, image_buffer_size);</div>
+<div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a3ed4bf178183ec9fcfc5ddd5be81ae9b">XGCoreLut3DDelete</a>(&amp;lut);</div>
+<div class="line">}</div>
+<div class="line"><a class="code hl_function" href="c__api_8cpp.html#a24030c90c878c9e2965a5a6ff6398878">XGCoreNodeManagerDelete</a>(&amp;node_manager);</div>
+<div class="ttc" id="ac__api_8cpp_html_a55382ff7d5069a2fdcdd9599178fa515"><div class="ttname"><a href="c__api_8cpp.html#a55382ff7d5069a2fdcdd9599178fa515">XGCoreNodeManagerCreateLut3DFromPipeline</a></div><div class="ttdeci">XG_API HLut3D XGCoreNodeManagerCreateLut3DFromPipeline(xg_core::HNodeManager in_manager, int in_first_node_index, int in_last_node_index, int in_lut_size)</div><div class="ttdoc">Create 3D LUT object from a whole pipeline or from a pipeline segment.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:452</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -907,7 +975,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get a <b>Node Class Description</b> object. </p>
-<h3><a class="anchor" id="autotoc_md15"></a>
+<h3><a class="anchor" id="autotoc_md16"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -932,9 +1000,9 @@ Example code</h3>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#a24030c90c878c9e2965a5a6ff6398878">XGCoreNodeManagerDelete</a>(&amp;node_manager);</div>
-<div class="ttc" id="ac__api_8cpp_html_a4348138a7b1ae3af5ae0c124258e7c1e"><div class="ttname"><a href="c__api_8cpp.html#a4348138a7b1ae3af5ae0c124258e7c1e">XGCoreNodeClassDescriptionGetImageProcessMaxComplexity</a></div><div class="ttdeci">XG_API EImageProcessComplexity XGCoreNodeClassDescriptionGetImageProcessMaxComplexity(HNodeClassDescription in_desc)</div><div class="ttdoc">Get a Node Class image processing max complexity.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:534</div></div>
-<div class="ttc" id="ac__api_8cpp_html_a95bee73b53b196fe07c3877b1f8f112f"><div class="ttname"><a href="c__api_8cpp.html#a95bee73b53b196fe07c3877b1f8f112f">XGCoreNodeManagerGetNodeClassDescription</a></div><div class="ttdeci">XG_API HNodeClassDescription XGCoreNodeManagerGetNodeClassDescription(HNodeManager in_manager, int in_index)</div><div class="ttdoc">Get a Node Class Description object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:459</div></div>
-<div class="ttc" id="ac__api_8cpp_html_ab78fec02c39db9dd9d2569341f728734"><div class="ttname"><a href="c__api_8cpp.html#ab78fec02c39db9dd9d2569341f728734">XGCoreNodeClassDescriptionGetDescription</a></div><div class="ttdeci">XG_API int XGCoreNodeClassDescriptionGetDescription(HNodeClassDescription in_desc, char *out_description)</div><div class="ttdoc">Get a Node Class text description.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:495</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a4348138a7b1ae3af5ae0c124258e7c1e"><div class="ttname"><a href="c__api_8cpp.html#a4348138a7b1ae3af5ae0c124258e7c1e">XGCoreNodeClassDescriptionGetImageProcessMaxComplexity</a></div><div class="ttdeci">XG_API EImageProcessComplexity XGCoreNodeClassDescriptionGetImageProcessMaxComplexity(HNodeClassDescription in_desc)</div><div class="ttdoc">Get a Node Class image processing max complexity.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:567</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a95bee73b53b196fe07c3877b1f8f112f"><div class="ttname"><a href="c__api_8cpp.html#a95bee73b53b196fe07c3877b1f8f112f">XGCoreNodeManagerGetNodeClassDescription</a></div><div class="ttdeci">XG_API HNodeClassDescription XGCoreNodeManagerGetNodeClassDescription(HNodeManager in_manager, int in_index)</div><div class="ttdoc">Get a Node Class Description object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:492</div></div>
+<div class="ttc" id="ac__api_8cpp_html_ab78fec02c39db9dd9d2569341f728734"><div class="ttname"><a href="c__api_8cpp.html#ab78fec02c39db9dd9d2569341f728734">XGCoreNodeClassDescriptionGetDescription</a></div><div class="ttdeci">XG_API int XGCoreNodeClassDescriptionGetDescription(HNodeClassDescription in_desc, char *out_description)</div><div class="ttdoc">Get a Node Class text description.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:528</div></div>
 <div class="ttc" id="anamespacexg__core_html_a4a2b0c40d167028d6f6f0d754770536d"><div class="ttname"><a href="namespacexg__core.html#a4a2b0c40d167028d6f6f0d754770536d">xg_core::HNodeClassDescription</a></div><div class="ttdeci">const class TNodeClassDescription * HNodeClassDescription</div><div class="ttdef"><b>Definition:</b> c_api.h:30</div></div>
 </div><!-- fragment --> 
 </div>
@@ -966,7 +1034,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get a <b>Node Class</b> text description. </p>
-<h3><a class="anchor" id="autotoc_md16"></a>
+<h3><a class="anchor" id="autotoc_md17"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1011,7 +1079,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get a <b>Node Class</b> image processing max complexity. </p>
-<h3><a class="anchor" id="autotoc_md17"></a>
+<h3><a class="anchor" id="autotoc_md18"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1066,7 +1134,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get a <b>Node</b> from the list of <b>Node</b> objects currently added by <a class="el" href="c__api_8h.html#a6ceab044e78587b7ddafe85fc974e7cf" title="Add a new Node object to a processing pipeline.">XGCoreNodeManagerAddNodeFromClassIndex()</a>. </p>
-<h3><a class="anchor" id="autotoc_md18"></a>
+<h3><a class="anchor" id="autotoc_md19"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1118,7 +1186,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get a class name for an existing <b>Node</b>. </p>
-<h3><a class="anchor" id="autotoc_md19"></a>
+<h3><a class="anchor" id="autotoc_md20"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1160,7 +1228,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get input port count for a <b>Node</b> object. </p>
-<h3><a class="anchor" id="autotoc_md20"></a>
+<h3><a class="anchor" id="autotoc_md21"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1201,9 +1269,9 @@ Example code</h3>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#a24030c90c878c9e2965a5a6ff6398878">XGCoreNodeManagerDelete</a>(&amp;node_manager);</div>
-<div class="ttc" id="ac__api_8cpp_html_a85e7c4b58ca7b01daf65a173ceebc057"><div class="ttname"><a href="c__api_8cpp.html#a85e7c4b58ca7b01daf65a173ceebc057">XGCoreNodeGetInputPortLink</a></div><div class="ttdeci">XG_API bool XGCoreNodeGetInputPortLink(xg_core::HNode in_node, int in_port_index, int *out_linked_node_index, int *out_linked_node_port_index)</div><div class="ttdoc">Get parameters describing the link to an input port of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:761</div></div>
-<div class="ttc" id="ac__api_8cpp_html_a9fe2f3c5bddcd2098f2ed7b51f52bacf"><div class="ttname"><a href="c__api_8cpp.html#a9fe2f3c5bddcd2098f2ed7b51f52bacf">XGCoreNodeGetInputPortCount</a></div><div class="ttdeci">XG_API int XGCoreNodeGetInputPortCount(xg_core::HNode in_node)</div><div class="ttdoc">Get input port count for a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:657</div></div>
-<div class="ttc" id="ac__api_8cpp_html_ae86bcc5b685f9dc023627fac87b23890"><div class="ttname"><a href="c__api_8cpp.html#ae86bcc5b685f9dc023627fac87b23890">XGCoreNodeGetOutputPortCount</a></div><div class="ttdeci">XG_API int XGCoreNodeGetOutputPortCount(xg_core::HNode in_node)</div><div class="ttdoc">Get output port count for a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:709</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a85e7c4b58ca7b01daf65a173ceebc057"><div class="ttname"><a href="c__api_8cpp.html#a85e7c4b58ca7b01daf65a173ceebc057">XGCoreNodeGetInputPortLink</a></div><div class="ttdeci">XG_API bool XGCoreNodeGetInputPortLink(xg_core::HNode in_node, int in_port_index, int *out_linked_node_index, int *out_linked_node_port_index)</div><div class="ttdoc">Get parameters describing the link to an input port of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:794</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a9fe2f3c5bddcd2098f2ed7b51f52bacf"><div class="ttname"><a href="c__api_8cpp.html#a9fe2f3c5bddcd2098f2ed7b51f52bacf">XGCoreNodeGetInputPortCount</a></div><div class="ttdeci">XG_API int XGCoreNodeGetInputPortCount(xg_core::HNode in_node)</div><div class="ttdoc">Get input port count for a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:690</div></div>
+<div class="ttc" id="ac__api_8cpp_html_ae86bcc5b685f9dc023627fac87b23890"><div class="ttname"><a href="c__api_8cpp.html#ae86bcc5b685f9dc023627fac87b23890">XGCoreNodeGetOutputPortCount</a></div><div class="ttdeci">XG_API int XGCoreNodeGetOutputPortCount(xg_core::HNode in_node)</div><div class="ttdoc">Get output port count for a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:742</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -1224,7 +1292,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get output port count for a <b>Node</b> object. </p>
-<h3><a class="anchor" id="autotoc_md21"></a>
+<h3><a class="anchor" id="autotoc_md22"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1307,7 +1375,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get parameters describing the link to an input port of a <b>Node</b> object. </p>
-<h3><a class="anchor" id="autotoc_md22"></a>
+<h3><a class="anchor" id="autotoc_md23"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1368,7 +1436,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get <b>Param</b> count of a <b>Node</b> object. </p>
-<h3><a class="anchor" id="autotoc_md23"></a>
+<h3><a class="anchor" id="autotoc_md24"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1406,10 +1474,10 @@ Example code</h3>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#a24030c90c878c9e2965a5a6ff6398878">XGCoreNodeManagerDelete</a>(&amp;node_manager);</div>
-<div class="ttc" id="ac__api_8cpp_html_a6a40e8bbc33f5a0b390628ce4b340720"><div class="ttname"><a href="c__api_8cpp.html#a6a40e8bbc33f5a0b390628ce4b340720">XGCoreNodeGetParamName</a></div><div class="ttdeci">XG_API int XGCoreNodeGetParamName(HNode in_node, int in_index, char *out_param_name)</div><div class="ttdoc">Get the name of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:913</div></div>
-<div class="ttc" id="ac__api_8cpp_html_aa3055e729b27bb1825e75a654182c2c3"><div class="ttname"><a href="c__api_8cpp.html#aa3055e729b27bb1825e75a654182c2c3">XGCoreNodeGetParamCount</a></div><div class="ttdeci">XG_API int XGCoreNodeGetParamCount(HNode in_node)</div><div class="ttdoc">Get Param count of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:815</div></div>
-<div class="ttc" id="ac__api_8cpp_html_ab91ac7fcc71fc92852f688f135d53e34"><div class="ttname"><a href="c__api_8cpp.html#ab91ac7fcc71fc92852f688f135d53e34">XGCoreNodeGetParamType</a></div><div class="ttdeci">XG_API ENodeParamType XGCoreNodeGetParamType(HNode in_node, int in_index)</div><div class="ttdoc">Get the type of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:864</div></div>
-<div class="ttc" id="ac__api_8cpp_html_aca6efb01540e8b0eec2069294d0d93a8"><div class="ttname"><a href="c__api_8cpp.html#aca6efb01540e8b0eec2069294d0d93a8">XGCoreNodeGetParamValueAsString</a></div><div class="ttdeci">XG_API int XGCoreNodeGetParamValueAsString(xg_core::HNode in_node, int in_index, char *out_param_value)</div><div class="ttdoc">Get the current value of a Param of a Node object converted to a String.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1211</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a6a40e8bbc33f5a0b390628ce4b340720"><div class="ttname"><a href="c__api_8cpp.html#a6a40e8bbc33f5a0b390628ce4b340720">XGCoreNodeGetParamName</a></div><div class="ttdeci">XG_API int XGCoreNodeGetParamName(HNode in_node, int in_index, char *out_param_name)</div><div class="ttdoc">Get the name of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:946</div></div>
+<div class="ttc" id="ac__api_8cpp_html_aa3055e729b27bb1825e75a654182c2c3"><div class="ttname"><a href="c__api_8cpp.html#aa3055e729b27bb1825e75a654182c2c3">XGCoreNodeGetParamCount</a></div><div class="ttdeci">XG_API int XGCoreNodeGetParamCount(HNode in_node)</div><div class="ttdoc">Get Param count of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:848</div></div>
+<div class="ttc" id="ac__api_8cpp_html_ab91ac7fcc71fc92852f688f135d53e34"><div class="ttname"><a href="c__api_8cpp.html#ab91ac7fcc71fc92852f688f135d53e34">XGCoreNodeGetParamType</a></div><div class="ttdeci">XG_API ENodeParamType XGCoreNodeGetParamType(HNode in_node, int in_index)</div><div class="ttdoc">Get the type of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:897</div></div>
+<div class="ttc" id="ac__api_8cpp_html_aca6efb01540e8b0eec2069294d0d93a8"><div class="ttname"><a href="c__api_8cpp.html#aca6efb01540e8b0eec2069294d0d93a8">XGCoreNodeGetParamValueAsString</a></div><div class="ttdeci">XG_API int XGCoreNodeGetParamValueAsString(xg_core::HNode in_node, int in_index, char *out_param_value)</div><div class="ttdoc">Get the current value of a Param of a Node object converted to a String.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1244</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -1440,7 +1508,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get the type of a <b>Param</b> of a <b>Node</b> object. </p>
-<h3><a class="anchor" id="autotoc_md24"></a>
+<h3><a class="anchor" id="autotoc_md25"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1514,7 +1582,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get the name of a <b>Param</b> of a <b>Node</b> object. </p>
-<h3><a class="anchor" id="autotoc_md25"></a>
+<h3><a class="anchor" id="autotoc_md26"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1582,7 +1650,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get the current Bool value of a <b>Param</b> of a <b>Node</b> object. </p>
-<h3><a class="anchor" id="autotoc_md26"></a>
+<h3><a class="anchor" id="autotoc_md27"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1653,10 +1721,10 @@ Example code</h3>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#a24030c90c878c9e2965a5a6ff6398878">XGCoreNodeManagerDelete</a>(&amp;node_manager);</div>
-<div class="ttc" id="ac__api_8cpp_html_a05e92e689ea02943bd16b1dd8cefd69a"><div class="ttname"><a href="c__api_8cpp.html#a05e92e689ea02943bd16b1dd8cefd69a">XGCoreNodeSetParamValueAsString</a></div><div class="ttdeci">XG_API bool XGCoreNodeSetParamValueAsString(xg_core::HNode in_node, int in_index, const char *in_param_value)</div><div class="ttdoc">Set the current value of a Param of a Node object from a String.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1296</div></div>
-<div class="ttc" id="ac__api_8cpp_html_a5f1f83af6b108b4a40691c2b322429d5"><div class="ttname"><a href="c__api_8cpp.html#a5f1f83af6b108b4a40691c2b322429d5">XGCoreNodeGetParamValueAsBool</a></div><div class="ttdeci">XG_API bool XGCoreNodeGetParamValueAsBool(xg_core::HNode in_node, int in_index)</div><div class="ttdoc">Get the current Bool value of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:998</div></div>
-<div class="ttc" id="ac__api_8cpp_html_ac4dc2959a561046bb75df64babb8a4e2"><div class="ttname"><a href="c__api_8cpp.html#ac4dc2959a561046bb75df64babb8a4e2">XGCoreNodeGetParamValueAsInt</a></div><div class="ttdeci">XG_API int XGCoreNodeGetParamValueAsInt(xg_core::HNode in_node, int in_index)</div><div class="ttdoc">Get the current Int value of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1080</div></div>
-<div class="ttc" id="ac__api_8cpp_html_ad014b3d275aa06059dc7e4a0eab78cb8"><div class="ttname"><a href="c__api_8cpp.html#ad014b3d275aa06059dc7e4a0eab78cb8">XGCoreNodeGetParamValueAsFloat</a></div><div class="ttdeci">XG_API float XGCoreNodeGetParamValueAsFloat(xg_core::HNode in_node, int in_index)</div><div class="ttdoc">Get the current Float value of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1162</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a05e92e689ea02943bd16b1dd8cefd69a"><div class="ttname"><a href="c__api_8cpp.html#a05e92e689ea02943bd16b1dd8cefd69a">XGCoreNodeSetParamValueAsString</a></div><div class="ttdeci">XG_API bool XGCoreNodeSetParamValueAsString(xg_core::HNode in_node, int in_index, const char *in_param_value)</div><div class="ttdoc">Set the current value of a Param of a Node object from a String.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1329</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a5f1f83af6b108b4a40691c2b322429d5"><div class="ttname"><a href="c__api_8cpp.html#a5f1f83af6b108b4a40691c2b322429d5">XGCoreNodeGetParamValueAsBool</a></div><div class="ttdeci">XG_API bool XGCoreNodeGetParamValueAsBool(xg_core::HNode in_node, int in_index)</div><div class="ttdoc">Get the current Bool value of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1031</div></div>
+<div class="ttc" id="ac__api_8cpp_html_ac4dc2959a561046bb75df64babb8a4e2"><div class="ttname"><a href="c__api_8cpp.html#ac4dc2959a561046bb75df64babb8a4e2">XGCoreNodeGetParamValueAsInt</a></div><div class="ttdeci">XG_API int XGCoreNodeGetParamValueAsInt(xg_core::HNode in_node, int in_index)</div><div class="ttdoc">Get the current Int value of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1113</div></div>
+<div class="ttc" id="ac__api_8cpp_html_ad014b3d275aa06059dc7e4a0eab78cb8"><div class="ttname"><a href="c__api_8cpp.html#ad014b3d275aa06059dc7e4a0eab78cb8">XGCoreNodeGetParamValueAsFloat</a></div><div class="ttdeci">XG_API float XGCoreNodeGetParamValueAsFloat(xg_core::HNode in_node, int in_index)</div><div class="ttdoc">Get the current Float value of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1195</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -1687,7 +1755,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get the current Int value of a <b>Param</b> of a <b>Node</b> object. </p>
-<h3><a class="anchor" id="autotoc_md27"></a>
+<h3><a class="anchor" id="autotoc_md28"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1788,7 +1856,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get the current Float value of a <b>Param</b> of a <b>Node</b> object. </p>
-<h3><a class="anchor" id="autotoc_md28"></a>
+<h3><a class="anchor" id="autotoc_md29"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1895,7 +1963,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Get the current value of a <b>Param</b> of a <b>Node</b> object converted to a String. </p>
-<h3><a class="anchor" id="autotoc_md29"></a>
+<h3><a class="anchor" id="autotoc_md30"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -1969,7 +2037,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Set the current value of a <b>Param</b> of a <b>Node</b> object from a String. </p>
-<h3><a class="anchor" id="autotoc_md30"></a>
+<h3><a class="anchor" id="autotoc_md31"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#af3d467eae698516b9aec19d7532ca6d9">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#a6a9dca37736450d424adc6cbe4b908a3">XGCoreNodeManagerGetNodeClassCount</a>(node_manager);</div>
@@ -2060,7 +2128,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Randomize <b>Node</b> object settings/parameters for rendering testing purposes.  </p>
-<h3><a class="anchor" id="autotoc_md31"></a>
+<h3><a class="anchor" id="autotoc_md32"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keywordtype">int</span> image_buffer_size = 4;</div>
 <div class="line">xg_core::TColor image_buffer[image_buffer_size] = { {0.6, 0.7, 0.8}, {0.1, 0.2, 0.3}, {1, 0.5, 0}, {-1, -0.5, 1.5} };</div>
@@ -2260,7 +2328,7 @@ Example code</h3>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="c__api_8cpp.html">c_api.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_3a334ef8abf27c01a822055f3cf83926.html">XG_Core</a></li><li class="navelem"><a class="el" href="dir_22494b6a68f0c3a3feb03813ba2d438f.html">wasm_src</a></li><li class="navelem"><a class="el" href="c__api_8cpp.html">c_api.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
