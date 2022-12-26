@@ -179,8 +179,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a472197868d2fc49deb04923e7f9f128d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> TNodeClassId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a472197868d2fc49deb04923e7f9f128d">XGCoreGetNodeClassIdByClassIndex</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">HNodeManager</a> in_manager, int in_class_index)</td></tr>
 <tr class="memdesc:a472197868d2fc49deb04923e7f9f128d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the ID of an existing <b>Node Class</b> object by its index.  <a href="c__api_8cpp.html#a472197868d2fc49deb04923e7f9f128d">More...</a><br /></td></tr>
 <tr class="separator:a472197868d2fc49deb04923e7f9f128d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4f58d8966236b3811c7271fc45b0216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> TNodeClassId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#ae4f58d8966236b3811c7271fc45b0216">XGCoreGetNodeClassInfo</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">HNodeManager</a> in_manager, TNodeId in_node_id)</td></tr>
-<tr class="separator:ae4f58d8966236b3811c7271fc45b0216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ad68c9e3efab09d70690ae755a459df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> TNodeClassId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a2ad68c9e3efab09d70690ae755a459df">XGCoreGetNodeClassId</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">HNodeManager</a> in_manager, TNodeId in_node_id)</td></tr>
+<tr class="separator:a2ad68c9e3efab09d70690ae755a459df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d2370114071cd6cc44648496a5f8446"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">HNodeManager</a> in_manager, TNodeClassId in_node_class_id, char *out_description)</td></tr>
 <tr class="separator:a8d2370114071cd6cc44648496a5f8446"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10a33ae18d5b79d1781eb394458baf5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> EImageProcessComplexity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a10a33ae18d5b79d1781eb394458baf5e">XGCoreGetNodeClassImageProcessMaxComplexity</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">HNodeManager</a> in_manager, TNodeClassId in_node_class_id)</td></tr>
@@ -866,7 +866,7 @@ Example code</h3>
 <div class="line">    std::string s = <span class="stringliteral">&quot;node #&quot;</span> + std::to_string(i + 1) + <span class="stringliteral">&quot; (&quot;</span> + std::string(node_class_name.get()) + <span class="stringliteral">&quot;)&quot;</span>;</div>
 <div class="line">    puts(s.c_str());</div>
 <div class="line"> </div>
-<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#ae4f58d8966236b3811c7271fc45b0216">XGCoreGetNodeClassInfo</a>(node_manager, node_id);</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a2ad68c9e3efab09d70690ae755a459df">XGCoreGetNodeClassId</a>(node_manager, node_id);</div>
 <div class="line">    <span class="keywordflow">if</span> (class_id &gt; 0)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordtype">int</span> description_len = <a class="code hl_function" href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a>(node_manager, class_id, <span class="keyword">nullptr</span>);</div>
@@ -877,9 +877,9 @@ Example code</h3>
 <div class="line">}</div>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#a1f69e544dde3f57d05980db78de34643">XGCoreNodeManagerDelete</a>(node_manager);</div>
 <div class="ttc" id="ac__api_8cpp_html_a1de028f5af8b4d6c5f39efe51f714c46"><div class="ttname"><a href="c__api_8cpp.html#a1de028f5af8b4d6c5f39efe51f714c46">XGCoreGetNodeClassNameById</a></div><div class="ttdeci">XG_API int XGCoreGetNodeClassNameById(HNodeManager in_manager, TNodeId in_node_id, char *out_class_name)</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1237</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a2ad68c9e3efab09d70690ae755a459df"><div class="ttname"><a href="c__api_8cpp.html#a2ad68c9e3efab09d70690ae755a459df">XGCoreGetNodeClassId</a></div><div class="ttdeci">XG_API TNodeClassId XGCoreGetNodeClassId(HNodeManager in_manager, TNodeId in_node_id)</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1067</div></div>
 <div class="ttc" id="ac__api_8cpp_html_a66c701abf21423fd16d6ff15d2d3c3c0"><div class="ttname"><a href="c__api_8cpp.html#a66c701abf21423fd16d6ff15d2d3c3c0">XGCoreAddNodeFromClassName</a></div><div class="ttdeci">XG_API TNodeId XGCoreAddNodeFromClassName(HNodeManager inout_manager, const char *in_class_name, bool in_auto_link)</div><div class="ttdoc">Add a new Node object by its class name to a processing pipeline.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:551</div></div>
 <div class="ttc" id="ac__api_8cpp_html_a8d2370114071cd6cc44648496a5f8446"><div class="ttname"><a href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a></div><div class="ttdeci">XG_API int XGCoreGetNodeClassDescription(HNodeManager in_manager, TNodeClassId in_node_class_id, char *out_description)</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1129</div></div>
-<div class="ttc" id="ac__api_8cpp_html_ae4f58d8966236b3811c7271fc45b0216"><div class="ttname"><a href="c__api_8cpp.html#ae4f58d8966236b3811c7271fc45b0216">XGCoreGetNodeClassInfo</a></div><div class="ttdeci">XG_API TNodeClassId XGCoreGetNodeClassInfo(HNodeManager in_manager, TNodeId in_node_id)</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1067</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -1075,7 +1075,7 @@ Example code</h3>
 <div class="line">    std::string s = <span class="stringliteral">&quot;node #&quot;</span> + std::to_string(i + 1) + <span class="stringliteral">&quot; (&quot;</span> + std::string(node_class_name.get()) + <span class="stringliteral">&quot;)&quot;</span>;</div>
 <div class="line">    puts(s.c_str());</div>
 <div class="line"> </div>
-<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#ae4f58d8966236b3811c7271fc45b0216">XGCoreGetNodeClassInfo</a>(node_manager, node_id);</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a2ad68c9e3efab09d70690ae755a459df">XGCoreGetNodeClassId</a>(node_manager, node_id);</div>
 <div class="line">    <span class="keywordflow">if</span> (class_id &gt; 0)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordtype">int</span> description_len = <a class="code hl_function" href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a>(node_manager, class_id, <span class="keyword">nullptr</span>);</div>
@@ -1811,14 +1811,14 @@ Example code</h3>
 </div><!-- fragment --> 
 </div>
 </div>
-<a id="ae4f58d8966236b3811c7271fc45b0216" name="ae4f58d8966236b3811c7271fc45b0216"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4f58d8966236b3811c7271fc45b0216">&#9670;&#160;</a></span>XGCoreGetNodeClassInfo()</h2>
+<a id="a2ad68c9e3efab09d70690ae755a459df" name="a2ad68c9e3efab09d70690ae755a459df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ad68c9e3efab09d70690ae755a459df">&#9670;&#160;</a></span>XGCoreGetNodeClassId()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> TNodeClassId XGCoreGetNodeClassInfo </td>
+          <td class="memname"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> TNodeClassId XGCoreGetNodeClassId </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">HNodeManager</a>&#160;</td>
           <td class="paramname"><em>in_manager</em>, </td>
@@ -1863,7 +1863,7 @@ Example code</h3>
 <div class="line">    <span class="keywordtype">int</span> node_class_name_len = <a class="code hl_function" href="c__api_8cpp.html#a1de028f5af8b4d6c5f39efe51f714c46">XGCoreGetNodeClassNameById</a>(node_manager, node_id, <span class="keyword">nullptr</span>);</div>
 <div class="line">    std::unique_ptr&lt;char[]&gt; node_class_name(<span class="keyword">new</span> <span class="keywordtype">char</span>[node_class_name_len]);</div>
 <div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a1de028f5af8b4d6c5f39efe51f714c46">XGCoreGetNodeClassNameById</a>(node_manager, node_id, node_class_name.get());</div>
-<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#ae4f58d8966236b3811c7271fc45b0216">XGCoreGetNodeClassInfo</a>(node_manager, node_id);</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a2ad68c9e3efab09d70690ae755a459df">XGCoreGetNodeClassId</a>(node_manager, node_id);</div>
 <div class="line">    <span class="keywordtype">int</span> description_len = <a class="code hl_function" href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a>(node_manager, class_id, <span class="keyword">nullptr</span>);</div>
 <div class="line">    std::unique_ptr&lt;char[]&gt; description(<span class="keyword">new</span> <span class="keywordtype">char</span>[description_len]);</div>
 <div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a>(node_manager, class_id, description.get());</div>
@@ -1936,7 +1936,7 @@ Example code</h3>
 <div class="line">    <span class="keywordtype">int</span> node_class_name_len = <a class="code hl_function" href="c__api_8cpp.html#a1de028f5af8b4d6c5f39efe51f714c46">XGCoreGetNodeClassNameById</a>(node_manager, node_id, <span class="keyword">nullptr</span>);</div>
 <div class="line">    std::unique_ptr&lt;char[]&gt; node_class_name(<span class="keyword">new</span> <span class="keywordtype">char</span>[node_class_name_len]);</div>
 <div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a1de028f5af8b4d6c5f39efe51f714c46">XGCoreGetNodeClassNameById</a>(node_manager, node_id, node_class_name.get());</div>
-<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#ae4f58d8966236b3811c7271fc45b0216">XGCoreGetNodeClassInfo</a>(node_manager, node_id);</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a2ad68c9e3efab09d70690ae755a459df">XGCoreGetNodeClassId</a>(node_manager, node_id);</div>
 <div class="line">    <span class="keywordtype">int</span> description_len = <a class="code hl_function" href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a>(node_manager, class_id, <span class="keyword">nullptr</span>);</div>
 <div class="line">    std::unique_ptr&lt;char[]&gt; description(<span class="keyword">new</span> <span class="keywordtype">char</span>[description_len]);</div>
 <div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a>(node_manager, class_id, description.get());</div>
@@ -1995,7 +1995,7 @@ Example code</h3>
 <div class="line">    std::unique_ptr&lt;char[]&gt; node_class_name(<span class="keyword">new</span> <span class="keywordtype">char</span>[node_class_name_len]);</div>
 <div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a1de028f5af8b4d6c5f39efe51f714c46">XGCoreGetNodeClassNameById</a>(node_manager, node_id, node_class_name.get());</div>
 <div class="line">    std::string s = <span class="stringliteral">&quot;node #&quot;</span> + std::to_string(i + 1) + <span class="stringliteral">&quot; of class &quot;</span> + std::string(node_class_name.get());</div>
-<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#ae4f58d8966236b3811c7271fc45b0216">XGCoreGetNodeClassInfo</a>(node_manager, node_id);</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a2ad68c9e3efab09d70690ae755a459df">XGCoreGetNodeClassId</a>(node_manager, node_id);</div>
 <div class="line">    <span class="keywordflow">if</span> (class_id &gt; 0)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordtype">int</span> description_len = <a class="code hl_function" href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a>(node_manager, class_id, <span class="keyword">nullptr</span>);</div>
@@ -2070,7 +2070,7 @@ Example code</h3>
 <div class="line">    <span class="keywordtype">int</span> node_class_name_len = <a class="code hl_function" href="c__api_8cpp.html#a1de028f5af8b4d6c5f39efe51f714c46">XGCoreGetNodeClassNameById</a>(node_manager, node_id, <span class="keyword">nullptr</span>);</div>
 <div class="line">    std::unique_ptr&lt;char[]&gt; node_class_name(<span class="keyword">new</span> <span class="keywordtype">char</span>[node_class_name_len]);</div>
 <div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a1de028f5af8b4d6c5f39efe51f714c46">XGCoreGetNodeClassNameById</a>(node_manager, node_id, node_class_name.get());</div>
-<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#ae4f58d8966236b3811c7271fc45b0216">XGCoreGetNodeClassInfo</a>(node_manager, node_id);</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a2ad68c9e3efab09d70690ae755a459df">XGCoreGetNodeClassId</a>(node_manager, node_id);</div>
 <div class="line">    <span class="keywordtype">int</span> description_len = <a class="code hl_function" href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a>(node_manager, class_id, <span class="keyword">nullptr</span>);</div>
 <div class="line">    std::unique_ptr&lt;char[]&gt; description(<span class="keyword">new</span> <span class="keywordtype">char</span>[description_len]);</div>
 <div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a8d2370114071cd6cc44648496a5f8446">XGCoreGetNodeClassDescription</a>(node_manager, class_id, description.get());</div>

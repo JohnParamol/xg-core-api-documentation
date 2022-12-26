@@ -36,7 +36,7 @@ var c__api_8h =
     [ "XGCoreGetNodeIndexById", "c__api_8h.html#aed26137d11f60f2f1a145168c91ee6ab", null ],
     [ "XGCoreGetNodeIdByIndex", "c__api_8h.html#a4d4f3e7578cecf3bddce69f41efe7e3b", null ],
     [ "XGCoreGetNodeClassIdByClassIndex", "c__api_8h.html#a0bfa078a578b35840eb1633d97f879b6", null ],
-    [ "XGCoreGetNodeClassInfo", "c__api_8h.html#a218db2023a66b3d517867a18b4f35984", null ],
+    [ "XGCoreGetNodeClassId", "c__api_8h.html#a7f51d62fc4ec8d7f057c2112cebd18dc", null ],
     [ "XGCoreGetNodeClassDescription", "c__api_8h.html#aa80a4b5c2c7eeb891d8110baed4b58de", null ],
     [ "XGCoreGetNodeClassImageProcessMaxComplexity", "c__api_8h.html#a50e7616bc7608279eb31219b5a07e786", null ],
     [ "XGCoreGetNodeClassNameById", "c__api_8h.html#ad024aee11efae22f4a85766a45ec1dea", null ],
