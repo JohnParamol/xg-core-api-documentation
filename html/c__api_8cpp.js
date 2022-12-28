@@ -16,7 +16,7 @@ var c__api_8cpp =
     [ "XGCoreGetNodeClassIdByClassIndex", "c__api_8cpp.html#a0bfa078a578b35840eb1633d97f879b6", null ],
     [ "XGCoreGetNodeClassName", "c__api_8cpp.html#a33513e0c6178812f4520764e18c33e0e", null ],
     [ "XGCoreGetNodeClassDescription", "c__api_8cpp.html#aa80a4b5c2c7eeb891d8110baed4b58de", null ],
-    [ "XGCoreGetNodeClassImageProcessMaxComplexity", "c__api_8cpp.html#a50e7616bc7608279eb31219b5a07e786", null ],
+    [ "XGCoreGetNodeClassPropertyAsInt", "c__api_8cpp.html#a1497c6a432cedb2233a8e6a6c4796680", null ],
     [ "XGCoreGetNodeCount", "c__api_8cpp.html#a44c00e08e28910e5c3d8ee0225113538", null ],
     [ "XGCoreGetNodeIdByNodeIndex", "c__api_8cpp.html#a205c3cf07c78c765fe3545933d610b9c", null ],
     [ "XGCoreGetNodeClassIdByNodeId", "c__api_8cpp.html#a502f26a384527c0b17612753e9d50155", null ],
