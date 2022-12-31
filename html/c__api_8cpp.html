@@ -220,8 +220,20 @@ Functions</h2></td></tr>
 <tr class="memitem:a330c21efdfa1bf54b05e8f4175d8fc01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a330c21efdfa1bf54b05e8f4175d8fc01">XGCoreGetNodeParamValueAsString</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> in_manager, xg_core::TNodeId in_node_id, int in_index, char *out_param_value)</td></tr>
 <tr class="memdesc:a330c21efdfa1bf54b05e8f4175d8fc01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current value of a <b>Param</b> of a <b>Node</b> object converted to a String.  <a href="c__api_8cpp.html#a330c21efdfa1bf54b05e8f4175d8fc01">More...</a><br /></td></tr>
 <tr class="separator:a330c21efdfa1bf54b05e8f4175d8fc01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f3ff6f6b67378917a5eaf4b293701b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">XGCoreGetNodeParamAsJson</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> in_manager, xg_core::TNodeId in_node_id, int in_index, char *out_json)</td></tr>
+<tr class="memdesc:ae7f3ff6f6b67378917a5eaf4b293701b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the main properties of a <b>Param</b> of a <b>Node</b> object converted to a JSON.  <a href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">More...</a><br /></td></tr>
+<tr class="separator:ae7f3ff6f6b67378917a5eaf4b293701b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab01d546fc5f8799be9a1173743b2cb1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#ab01d546fc5f8799be9a1173743b2cb1b">XGCoreSetNodeParamValueAsBool</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> inout_manager, xg_core::TNodeId in_node_id, int in_index, bool in_param_value)</td></tr>
+<tr class="memdesc:ab01d546fc5f8799be9a1173743b2cb1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current value of a <b>Param</b> of a <b>Node</b> object as a Bool. If the parameter has a type other than Bool, the bool value will be converted to the current parameter type.  <a href="c__api_8cpp.html#ab01d546fc5f8799be9a1173743b2cb1b">More...</a><br /></td></tr>
+<tr class="separator:ab01d546fc5f8799be9a1173743b2cb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20c3dd977a08d6666a449add0175d131"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a20c3dd977a08d6666a449add0175d131">XGCoreSetNodeParamValueAsInt</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> inout_manager, xg_core::TNodeId in_node_id, int in_index, int in_param_value)</td></tr>
+<tr class="memdesc:a20c3dd977a08d6666a449add0175d131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current value of a <b>Param</b> of a <b>Node</b> object as an Int. If the parameter has a type other than Int, the int value will be converted to the current parameter type.  <a href="c__api_8cpp.html#a20c3dd977a08d6666a449add0175d131">More...</a><br /></td></tr>
+<tr class="separator:a20c3dd977a08d6666a449add0175d131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716e5a75e04c42d9132f688ee06f9135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a716e5a75e04c42d9132f688ee06f9135">XGCoreSetNodeParamValueAsFloat</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> inout_manager, xg_core::TNodeId in_node_id, int in_index, float in_param_value)</td></tr>
+<tr class="memdesc:a716e5a75e04c42d9132f688ee06f9135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current value of a <b>Param</b> of a <b>Node</b> object as a Float. If the parameter has a type other than Float, the float value will be converted to the current parameter type.  <a href="c__api_8cpp.html#a716e5a75e04c42d9132f688ee06f9135">More...</a><br /></td></tr>
+<tr class="separator:a716e5a75e04c42d9132f688ee06f9135"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50167ace8cdb3eb864dd1c37cbc856cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a50167ace8cdb3eb864dd1c37cbc856cb">XGCoreSetNodeParamValueAsString</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> inout_manager, xg_core::TNodeId in_node_id, int in_index, const char *in_param_value)</td></tr>
-<tr class="memdesc:a50167ace8cdb3eb864dd1c37cbc856cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current value of a <b>Param</b> of a <b>Node</b> object from a String.  <a href="c__api_8cpp.html#a50167ace8cdb3eb864dd1c37cbc856cb">More...</a><br /></td></tr>
+<tr class="memdesc:a50167ace8cdb3eb864dd1c37cbc856cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current value of a <b>Param</b> of a <b>Node</b> object from a String. If the parameter has a type other than String, the string value will be converted to the current parameter type.  <a href="c__api_8cpp.html#a50167ace8cdb3eb864dd1c37cbc856cb">More...</a><br /></td></tr>
 <tr class="separator:a50167ace8cdb3eb864dd1c37cbc856cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83d5c054b06ef1909ee4764bdf56d120"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8cpp.html#a83d5c054b06ef1909ee4764bdf56d120">XGCoreResetNode</a> (<a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> inout_manager, xg_core::TNodeId in_node_id)</td></tr>
 <tr class="memdesc:a83d5c054b06ef1909ee4764bdf56d120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset <b>Node</b> object settings/parameters to default values  <a href="c__api_8cpp.html#a83d5c054b06ef1909ee4764bdf56d120">More...</a><br /></td></tr>
@@ -338,7 +350,7 @@ Example code</h3>
 <div class="line"> </div>
 <div class="line">}</div>
 <div class="ttc" id="ac__api_8cpp_html_a189e5d6d802c87f4b4e52f77cc8bc52c"><div class="ttname"><a href="c__api_8cpp.html#a189e5d6d802c87f4b4e52f77cc8bc52c">XGCoreSetErrorCallback</a></div><div class="ttdeci">XG_API void XGCoreSetErrorCallback(xg_core::TErrorCallback callback)</div><div class="ttdoc">Set user error handler (callback function).</div><div class="ttdef"><b>Definition:</b> c_api.cpp:54</div></div>
-<div class="ttc" id="ac__api_8cpp_html_aef4cac471768a7ffc87c87157d809bec"><div class="ttname"><a href="c__api_8cpp.html#aef4cac471768a7ffc87c87157d809bec">main</a></div><div class="ttdeci">XG_API int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> c_api.cpp:2174</div></div>
+<div class="ttc" id="ac__api_8cpp_html_aef4cac471768a7ffc87c87157d809bec"><div class="ttname"><a href="c__api_8cpp.html#aef4cac471768a7ffc87c87157d809bec">main</a></div><div class="ttdeci">XG_API int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> c_api.cpp:2450</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -1715,7 +1727,7 @@ Example code</h3>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#adc54e59de04abc160d586d1055111183">XGCorePipelineProcessRgbBuffer</a>(node_manager, (<span class="keywordtype">float</span>*)image_buffer, image_buffer_size, 24);</div>
 <div class="line"> </div>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#ab03784e3f3fa53dc357e22823d97ba1d">XGCoreNodeManagerDelete</a>(node_manager);</div>
-<div class="ttc" id="ac__api_8cpp_html_ac27cd9c3eed68cafd31b653d5085b200"><div class="ttname"><a href="c__api_8cpp.html#ac27cd9c3eed68cafd31b653d5085b200">XGCoreRandomizeNode</a></div><div class="ttdeci">XG_API void XGCoreRandomizeNode(xg_core::HNodeManager inout_manager, xg_core::TNodeId in_node_id)</div><div class="ttdoc">Randomize Node object settings/parameters for rendering testing purposes.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1995</div></div>
+<div class="ttc" id="ac__api_8cpp_html_ac27cd9c3eed68cafd31b653d5085b200"><div class="ttname"><a href="c__api_8cpp.html#ac27cd9c3eed68cafd31b653d5085b200">XGCoreRandomizeNode</a></div><div class="ttdeci">XG_API void XGCoreRandomizeNode(xg_core::HNodeManager inout_manager, xg_core::TNodeId in_node_id)</div><div class="ttdoc">Randomize Node object settings/parameters for rendering testing purposes.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:2270</div></div>
 <div class="ttc" id="ac__api_8cpp_html_adc54e59de04abc160d586d1055111183"><div class="ttname"><a href="c__api_8cpp.html#adc54e59de04abc160d586d1055111183">XGCorePipelineProcessRgbBuffer</a></div><div class="ttdeci">XG_API void XGCorePipelineProcessRgbBuffer(xg_core::HNodeManager in_manager, float *inout_buffer, int in_buffer_size, int in_proxy_lut_size)</div><div class="ttdoc">Process image buffer by a Node Manager object pipeline.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:910</div></div>
 </div><!-- fragment --> 
 </div>
@@ -2281,7 +2293,7 @@ Example code</h3>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#ab03784e3f3fa53dc357e22823d97ba1d">XGCoreNodeManagerDelete</a>(node_manager);</div>
 <div class="ttc" id="ac__api_8cpp_html_a330c21efdfa1bf54b05e8f4175d8fc01"><div class="ttname"><a href="c__api_8cpp.html#a330c21efdfa1bf54b05e8f4175d8fc01">XGCoreGetNodeParamValueAsString</a></div><div class="ttdeci">XG_API int XGCoreGetNodeParamValueAsString(xg_core::HNodeManager in_manager, xg_core::TNodeId in_node_id, int in_index, char *out_param_value)</div><div class="ttdoc">Get the current value of a Param of a Node object converted to a String.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1834</div></div>
 <div class="ttc" id="ac__api_8cpp_html_a452c665a57167dd76a774d1d017bee4a"><div class="ttname"><a href="c__api_8cpp.html#a452c665a57167dd76a774d1d017bee4a">XGCoreGetNodeParamName</a></div><div class="ttdeci">XG_API int XGCoreGetNodeParamName(xg_core::HNodeManager in_manager, xg_core::TNodeId in_node_id, int in_index, char *out_param_name)</div><div class="ttdoc">Get the name of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1479</div></div>
-<div class="ttc" id="ac__api_8cpp_html_a50167ace8cdb3eb864dd1c37cbc856cb"><div class="ttname"><a href="c__api_8cpp.html#a50167ace8cdb3eb864dd1c37cbc856cb">XGCoreSetNodeParamValueAsString</a></div><div class="ttdeci">XG_API bool XGCoreSetNodeParamValueAsString(xg_core::HNodeManager inout_manager, xg_core::TNodeId in_node_id, int in_index, const char *in_param_value)</div><div class="ttdoc">Set the current value of a Param of a Node object from a String.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1925</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a50167ace8cdb3eb864dd1c37cbc856cb"><div class="ttname"><a href="c__api_8cpp.html#a50167ace8cdb3eb864dd1c37cbc856cb">XGCoreSetNodeParamValueAsString</a></div><div class="ttdeci">XG_API bool XGCoreSetNodeParamValueAsString(xg_core::HNodeManager inout_manager, xg_core::TNodeId in_node_id, int in_index, const char *in_param_value)</div><div class="ttdoc">Set the current value of a Param of a Node object from a String. If the parameter has a type other th...</div><div class="ttdef"><b>Definition:</b> c_api.cpp:2200</div></div>
 <div class="ttc" id="ac__api_8cpp_html_a55e64082fa87a9e392b5d30ff772c5f2"><div class="ttname"><a href="c__api_8cpp.html#a55e64082fa87a9e392b5d30ff772c5f2">XGCoreGetNodeParamCount</a></div><div class="ttdeci">XG_API int XGCoreGetNodeParamCount(xg_core::HNodeManager in_manager, xg_core::TNodeId in_node_id)</div><div class="ttdoc">Get Param count of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1304</div></div>
 <div class="ttc" id="ac__api_8cpp_html_a6921cdf908fb447a2146b3b255d487b8"><div class="ttname"><a href="c__api_8cpp.html#a6921cdf908fb447a2146b3b255d487b8">XGCoreGetNodeParamValueAsBool</a></div><div class="ttdeci">XG_API bool XGCoreGetNodeParamValueAsBool(xg_core::HNodeManager in_manager, xg_core::TNodeId in_node_id, int in_index)</div><div class="ttdoc">Get the current Bool value of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1570</div></div>
 <div class="ttc" id="ac__api_8cpp_html_a8bb971730660b9aeae619685ab944a77"><div class="ttname"><a href="c__api_8cpp.html#a8bb971730660b9aeae619685ab944a77">XGCoreGetNodeParamValueAsFloat</a></div><div class="ttdeci">XG_API float XGCoreGetNodeParamValueAsFloat(xg_core::HNodeManager in_manager, xg_core::TNodeId in_node_id, int in_index)</div><div class="ttdoc">Get the current Float value of a Param of a Node object.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1746</div></div>
@@ -2962,6 +2974,394 @@ Example code</h3>
 </div><!-- fragment --> 
 </div>
 </div>
+<a id="ae7f3ff6f6b67378917a5eaf4b293701b" name="ae7f3ff6f6b67378917a5eaf4b293701b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f3ff6f6b67378917a5eaf4b293701b">&#9670;&#160;</a></span>XGCoreGetNodeParamAsJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> int XGCoreGetNodeParamAsJson </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a>&#160;</td>
+          <td class="paramname"><em>in_manager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">xg_core::TNodeId&#160;</td>
+          <td class="paramname"><em>in_node_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>out_json</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the main properties of a <b>Param</b> of a <b>Node</b> object converted to a JSON. </p>
+<h3><a class="anchor" id="autotoc_md40"></a>
+Example code</h3>
+<div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#a5965c2a933752e86ef98f22f7fc0d0d3">XGCoreNodeManagerCreate</a>();</div>
+<div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#ace69c177c069bce6252569bfca336129">XGCoreGetNodeClassCount</a>(node_manager);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; node_class_count; ++i)</div>
+<div class="line">{</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a0bfa078a578b35840eb1633d97f879b6">XGCoreGetNodeClassIdByClassIndex</a>(node_manager, i);</div>
+<div class="line">    <span class="keywordflow">if</span> (!<a class="code hl_function" href="c__api_8cpp.html#a1497c6a432cedb2233a8e6a6c4796680">XGCoreGetNodeClassPropertyAsInt</a>(node_manager, class_id, xg_core::encpAllowCreate)) <span class="keywordflow">continue</span>;</div>
+<div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a8f31fac7cb716b2706b0dcbfd24b18a3">XGCoreAddNode</a>(node_manager, class_id, <span class="keyword">true</span>);</div>
+<div class="line">}</div>
+<div class="line"><span class="keywordtype">int</span> node_count = <a class="code hl_function" href="c__api_8cpp.html#a44c00e08e28910e5c3d8ee0225113538">XGCoreGetNodeCount</a>(node_manager);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; node_count; ++i)</div>
+<div class="line">{</div>
+<div class="line">    xg_core::TNodeId node_id = <a class="code hl_function" href="c__api_8cpp.html#a205c3cf07c78c765fe3545933d610b9c">XGCoreGetNodeIdByNodeIndex</a>(node_manager, i);</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a502f26a384527c0b17612753e9d50155">XGCoreGetNodeClassIdByNodeId</a>(node_manager, node_id);</div>
+<div class="line">    <span class="keywordtype">int</span> node_class_name_len = <a class="code hl_function" href="c__api_8cpp.html#a33513e0c6178812f4520764e18c33e0e">XGCoreGetNodeClassName</a>(node_manager, class_id, <span class="keyword">nullptr</span>);</div>
+<div class="line">    std::unique_ptr&lt;char[]&gt; node_class_name(<span class="keyword">new</span> <span class="keywordtype">char</span>[node_class_name_len]);</div>
+<div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a33513e0c6178812f4520764e18c33e0e">XGCoreGetNodeClassName</a>(node_manager, class_id, node_class_name.get());</div>
+<div class="line">    std::string s = <span class="stringliteral">&quot;node #&quot;</span> + std::to_string(i + 1) + <span class="stringliteral">&quot; (&quot;</span> + std::string(node_class_name.get()) + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line">    puts(s.c_str());</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordtype">int</span> param_count = <a class="code hl_function" href="c__api_8cpp.html#a55e64082fa87a9e392b5d30ff772c5f2">XGCoreGetNodeParamCount</a>(node_manager, node_id);</div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> p = 0; p &lt; param_count; ++p)</div>
+<div class="line">    {</div>
+<div class="line">        std::string s = <span class="stringliteral">&quot;param #&quot;</span> + std::to_string(p + 1);</div>
+<div class="line">        puts(s.c_str());</div>
+<div class="line">        <span class="keywordtype">int</span> json_len = <a class="code hl_function" href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">XGCoreGetNodeParamAsJson</a>(node_manager, node_id, p, <span class="keyword">nullptr</span>);</div>
+<div class="line">        std::unique_ptr&lt;char[]&gt; json(<span class="keyword">new</span> <span class="keywordtype">char</span>[json_len]);</div>
+<div class="line">        <a class="code hl_function" href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">XGCoreGetNodeParamAsJson</a>(node_manager, node_id, p, json.get());</div>
+<div class="line">        puts(json.get());</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"><a class="code hl_function" href="c__api_8cpp.html#ab03784e3f3fa53dc357e22823d97ba1d">XGCoreNodeManagerDelete</a>(node_manager);</div>
+<div class="ttc" id="ac__api_8cpp_html_ae7f3ff6f6b67378917a5eaf4b293701b"><div class="ttname"><a href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">XGCoreGetNodeParamAsJson</a></div><div class="ttdeci">XG_API int XGCoreGetNodeParamAsJson(xg_core::HNodeManager in_manager, xg_core::TNodeId in_node_id, int in_index, char *out_json)</div><div class="ttdoc">Get the main properties of a Param of a Node object converted to a JSON.</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1884</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="ab01d546fc5f8799be9a1173743b2cb1b" name="ab01d546fc5f8799be9a1173743b2cb1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab01d546fc5f8799be9a1173743b2cb1b">&#9670;&#160;</a></span>XGCoreSetNodeParamValueAsBool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> bool XGCoreSetNodeParamValueAsBool </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a>&#160;</td>
+          <td class="paramname"><em>inout_manager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">xg_core::TNodeId&#160;</td>
+          <td class="paramname"><em>in_node_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>in_param_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the current value of a <b>Param</b> of a <b>Node</b> object as a Bool. If the parameter has a type other than Bool, the bool value will be converted to the current parameter type. </p>
+<h3><a class="anchor" id="autotoc_md41"></a>
+Example code</h3>
+<div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#a5965c2a933752e86ef98f22f7fc0d0d3">XGCoreNodeManagerCreate</a>();</div>
+<div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#ace69c177c069bce6252569bfca336129">XGCoreGetNodeClassCount</a>(node_manager);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; node_class_count; ++i)</div>
+<div class="line">{</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a0bfa078a578b35840eb1633d97f879b6">XGCoreGetNodeClassIdByClassIndex</a>(node_manager, i);</div>
+<div class="line">    <span class="keywordflow">if</span> (!<a class="code hl_function" href="c__api_8cpp.html#a1497c6a432cedb2233a8e6a6c4796680">XGCoreGetNodeClassPropertyAsInt</a>(node_manager, class_id, xg_core::encpAllowCreate)) <span class="keywordflow">continue</span>;</div>
+<div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a8f31fac7cb716b2706b0dcbfd24b18a3">XGCoreAddNode</a>(node_manager, class_id, <span class="keyword">true</span>);</div>
+<div class="line">}</div>
+<div class="line"><span class="keywordtype">int</span> node_count = <a class="code hl_function" href="c__api_8cpp.html#a44c00e08e28910e5c3d8ee0225113538">XGCoreGetNodeCount</a>(node_manager);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; node_count; ++i)</div>
+<div class="line">{</div>
+<div class="line">    xg_core::TNodeId node_id = <a class="code hl_function" href="c__api_8cpp.html#a205c3cf07c78c765fe3545933d610b9c">XGCoreGetNodeIdByNodeIndex</a>(node_manager, i);</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a502f26a384527c0b17612753e9d50155">XGCoreGetNodeClassIdByNodeId</a>(node_manager, node_id);</div>
+<div class="line">    <span class="keywordtype">int</span> node_class_name_len = <a class="code hl_function" href="c__api_8cpp.html#a33513e0c6178812f4520764e18c33e0e">XGCoreGetNodeClassName</a>(node_manager, class_id, <span class="keyword">nullptr</span>);</div>
+<div class="line">    std::unique_ptr&lt;char[]&gt; node_class_name(<span class="keyword">new</span> <span class="keywordtype">char</span>[node_class_name_len]);</div>
+<div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a33513e0c6178812f4520764e18c33e0e">XGCoreGetNodeClassName</a>(node_manager, class_id, node_class_name.get());</div>
+<div class="line">    std::string s = <span class="stringliteral">&quot;node #&quot;</span> + std::to_string(i + 1) + <span class="stringliteral">&quot; (&quot;</span> + std::string(node_class_name.get()) + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line">    puts(s.c_str());</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordtype">int</span> param_count = <a class="code hl_function" href="c__api_8cpp.html#a55e64082fa87a9e392b5d30ff772c5f2">XGCoreGetNodeParamCount</a>(node_manager, node_id);</div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> p = 0; p &lt; param_count; ++p)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordtype">int</span> delta = int((rand() / (<span class="keywordtype">float</span>)RAND_MAX) * 30 - 15);</div>
+<div class="line">        xg_core::ENodeParamType param_type = <a class="code hl_function" href="c__api_8cpp.html#adc9500b2f15b1d4a1373965caf8411e3">XGCoreGetNodeParamType</a>(node_manager, node_id, p);</div>
+<div class="line">        <span class="keywordflow">switch</span> (param_type)</div>
+<div class="line">        {</div>
+<div class="line">        <span class="keywordflow">case</span> xg_core::enptBool:</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">bool</span> value = <a class="code hl_function" href="c__api_8cpp.html#a6921cdf908fb447a2146b3b255d487b8">XGCoreGetNodeParamValueAsBool</a>(node_manager, node_id, p);</div>
+<div class="line">            <span class="keywordflow">if</span> (delta &gt; 0) value = <span class="keyword">true</span>;</div>
+<div class="line">            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (delta &lt; 0) value = <span class="keyword">false</span>;</div>
+<div class="line">            <a class="code hl_function" href="c__api_8cpp.html#ab01d546fc5f8799be9a1173743b2cb1b">XGCoreSetNodeParamValueAsBool</a>(node_manager, node_id, p, value);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">case</span> xg_core::enptInt:</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">int</span> value = <a class="code hl_function" href="c__api_8cpp.html#acffb3711633777a9c1779f96559920a6">XGCoreGetNodeParamValueAsInt</a>(node_manager, node_id, p);</div>
+<div class="line">            value += delta;</div>
+<div class="line">            <a class="code hl_function" href="c__api_8cpp.html#a20c3dd977a08d6666a449add0175d131">XGCoreSetNodeParamValueAsInt</a>(node_manager, node_id, p, value);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">case</span> xg_core::enptFloat:</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">float</span> value = <a class="code hl_function" href="c__api_8cpp.html#a8bb971730660b9aeae619685ab944a77">XGCoreGetNodeParamValueAsFloat</a>(node_manager, node_id, p);</div>
+<div class="line">            value += delta * 0.01f;</div>
+<div class="line">            <a class="code hl_function" href="c__api_8cpp.html#a716e5a75e04c42d9132f688ee06f9135">XGCoreSetNodeParamValueAsFloat</a>(node_manager, node_id, p, value);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        }</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        std::string s = <span class="stringliteral">&quot;param #&quot;</span> + std::to_string(p + 1);</div>
+<div class="line">        puts(s.c_str());</div>
+<div class="line">        <span class="keywordtype">int</span> json_len = <a class="code hl_function" href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">XGCoreGetNodeParamAsJson</a>(node_manager, node_id, p, <span class="keyword">nullptr</span>);</div>
+<div class="line">        std::unique_ptr&lt;char[]&gt; json(<span class="keyword">new</span> <span class="keywordtype">char</span>[json_len]);</div>
+<div class="line">        <a class="code hl_function" href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">XGCoreGetNodeParamAsJson</a>(node_manager, node_id, p, json.get());</div>
+<div class="line">        puts(json.get());</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"><a class="code hl_function" href="c__api_8cpp.html#ab03784e3f3fa53dc357e22823d97ba1d">XGCoreNodeManagerDelete</a>(node_manager);</div>
+<div class="ttc" id="ac__api_8cpp_html_a20c3dd977a08d6666a449add0175d131"><div class="ttname"><a href="c__api_8cpp.html#a20c3dd977a08d6666a449add0175d131">XGCoreSetNodeParamValueAsInt</a></div><div class="ttdeci">XG_API bool XGCoreSetNodeParamValueAsInt(xg_core::HNodeManager inout_manager, xg_core::TNodeId in_node_id, int in_index, int in_param_value)</div><div class="ttdoc">Set the current value of a Param of a Node object as an Int. If the parameter has a type other than I...</div><div class="ttdef"><b>Definition:</b> c_api.cpp:2037</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a716e5a75e04c42d9132f688ee06f9135"><div class="ttname"><a href="c__api_8cpp.html#a716e5a75e04c42d9132f688ee06f9135">XGCoreSetNodeParamValueAsFloat</a></div><div class="ttdeci">XG_API bool XGCoreSetNodeParamValueAsFloat(xg_core::HNodeManager inout_manager, xg_core::TNodeId in_node_id, int in_index, float in_param_value)</div><div class="ttdoc">Set the current value of a Param of a Node object as a Float. If the parameter has a type other than ...</div><div class="ttdef"><b>Definition:</b> c_api.cpp:2112</div></div>
+<div class="ttc" id="ac__api_8cpp_html_ab01d546fc5f8799be9a1173743b2cb1b"><div class="ttname"><a href="c__api_8cpp.html#ab01d546fc5f8799be9a1173743b2cb1b">XGCoreSetNodeParamValueAsBool</a></div><div class="ttdeci">XG_API bool XGCoreSetNodeParamValueAsBool(xg_core::HNodeManager inout_manager, xg_core::TNodeId in_node_id, int in_index, bool in_param_value)</div><div class="ttdoc">Set the current value of a Param of a Node object as a Bool. If the parameter has a type other than B...</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1962</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="a20c3dd977a08d6666a449add0175d131" name="a20c3dd977a08d6666a449add0175d131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20c3dd977a08d6666a449add0175d131">&#9670;&#160;</a></span>XGCoreSetNodeParamValueAsInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> bool XGCoreSetNodeParamValueAsInt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a>&#160;</td>
+          <td class="paramname"><em>inout_manager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">xg_core::TNodeId&#160;</td>
+          <td class="paramname"><em>in_node_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in_param_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the current value of a <b>Param</b> of a <b>Node</b> object as an Int. If the parameter has a type other than Int, the int value will be converted to the current parameter type. </p>
+<h3><a class="anchor" id="autotoc_md42"></a>
+Example code</h3>
+<div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#a5965c2a933752e86ef98f22f7fc0d0d3">XGCoreNodeManagerCreate</a>();</div>
+<div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#ace69c177c069bce6252569bfca336129">XGCoreGetNodeClassCount</a>(node_manager);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; node_class_count; ++i)</div>
+<div class="line">{</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a0bfa078a578b35840eb1633d97f879b6">XGCoreGetNodeClassIdByClassIndex</a>(node_manager, i);</div>
+<div class="line">    <span class="keywordflow">if</span> (!<a class="code hl_function" href="c__api_8cpp.html#a1497c6a432cedb2233a8e6a6c4796680">XGCoreGetNodeClassPropertyAsInt</a>(node_manager, class_id, xg_core::encpAllowCreate)) <span class="keywordflow">continue</span>;</div>
+<div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a8f31fac7cb716b2706b0dcbfd24b18a3">XGCoreAddNode</a>(node_manager, class_id, <span class="keyword">true</span>);</div>
+<div class="line">}</div>
+<div class="line"><span class="keywordtype">int</span> node_count = <a class="code hl_function" href="c__api_8cpp.html#a44c00e08e28910e5c3d8ee0225113538">XGCoreGetNodeCount</a>(node_manager);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; node_count; ++i)</div>
+<div class="line">{</div>
+<div class="line">    xg_core::TNodeId node_id = <a class="code hl_function" href="c__api_8cpp.html#a205c3cf07c78c765fe3545933d610b9c">XGCoreGetNodeIdByNodeIndex</a>(node_manager, i);</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a502f26a384527c0b17612753e9d50155">XGCoreGetNodeClassIdByNodeId</a>(node_manager, node_id);</div>
+<div class="line">    <span class="keywordtype">int</span> node_class_name_len = <a class="code hl_function" href="c__api_8cpp.html#a33513e0c6178812f4520764e18c33e0e">XGCoreGetNodeClassName</a>(node_manager, class_id, <span class="keyword">nullptr</span>);</div>
+<div class="line">    std::unique_ptr&lt;char[]&gt; node_class_name(<span class="keyword">new</span> <span class="keywordtype">char</span>[node_class_name_len]);</div>
+<div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a33513e0c6178812f4520764e18c33e0e">XGCoreGetNodeClassName</a>(node_manager, class_id, node_class_name.get());</div>
+<div class="line">    std::string s = <span class="stringliteral">&quot;node #&quot;</span> + std::to_string(i + 1) + <span class="stringliteral">&quot; (&quot;</span> + std::string(node_class_name.get()) + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line">    puts(s.c_str());</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordtype">int</span> param_count = <a class="code hl_function" href="c__api_8cpp.html#a55e64082fa87a9e392b5d30ff772c5f2">XGCoreGetNodeParamCount</a>(node_manager, node_id);</div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> p = 0; p &lt; param_count; ++p)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordtype">int</span> delta = int((rand() / (<span class="keywordtype">float</span>)RAND_MAX) * 30 - 15);</div>
+<div class="line">        xg_core::ENodeParamType param_type = <a class="code hl_function" href="c__api_8cpp.html#adc9500b2f15b1d4a1373965caf8411e3">XGCoreGetNodeParamType</a>(node_manager, node_id, p);</div>
+<div class="line">        <span class="keywordflow">switch</span> (param_type)</div>
+<div class="line">        {</div>
+<div class="line">        <span class="keywordflow">case</span> xg_core::enptBool:</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">bool</span> value = <a class="code hl_function" href="c__api_8cpp.html#a6921cdf908fb447a2146b3b255d487b8">XGCoreGetNodeParamValueAsBool</a>(node_manager, node_id, p);</div>
+<div class="line">            <span class="keywordflow">if</span> (delta &gt; 0) value = <span class="keyword">true</span>;</div>
+<div class="line">            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (delta &lt; 0) value = <span class="keyword">false</span>;</div>
+<div class="line">            <a class="code hl_function" href="c__api_8cpp.html#ab01d546fc5f8799be9a1173743b2cb1b">XGCoreSetNodeParamValueAsBool</a>(node_manager, node_id, p, value);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">case</span> xg_core::enptInt:</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">int</span> value = <a class="code hl_function" href="c__api_8cpp.html#acffb3711633777a9c1779f96559920a6">XGCoreGetNodeParamValueAsInt</a>(node_manager, node_id, p);</div>
+<div class="line">            value += delta;</div>
+<div class="line">            <a class="code hl_function" href="c__api_8cpp.html#a20c3dd977a08d6666a449add0175d131">XGCoreSetNodeParamValueAsInt</a>(node_manager, node_id, p, value);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">case</span> xg_core::enptFloat:</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">float</span> value = <a class="code hl_function" href="c__api_8cpp.html#a8bb971730660b9aeae619685ab944a77">XGCoreGetNodeParamValueAsFloat</a>(node_manager, node_id, p);</div>
+<div class="line">            value += delta * 0.01f;</div>
+<div class="line">            <a class="code hl_function" href="c__api_8cpp.html#a716e5a75e04c42d9132f688ee06f9135">XGCoreSetNodeParamValueAsFloat</a>(node_manager, node_id, p, value);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        }</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        std::string s = <span class="stringliteral">&quot;param #&quot;</span> + std::to_string(p + 1);</div>
+<div class="line">        puts(s.c_str());</div>
+<div class="line">        <span class="keywordtype">int</span> json_len = <a class="code hl_function" href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">XGCoreGetNodeParamAsJson</a>(node_manager, node_id, p, <span class="keyword">nullptr</span>);</div>
+<div class="line">        std::unique_ptr&lt;char[]&gt; json(<span class="keyword">new</span> <span class="keywordtype">char</span>[json_len]);</div>
+<div class="line">        <a class="code hl_function" href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">XGCoreGetNodeParamAsJson</a>(node_manager, node_id, p, json.get());</div>
+<div class="line">        puts(json.get());</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"><a class="code hl_function" href="c__api_8cpp.html#ab03784e3f3fa53dc357e22823d97ba1d">XGCoreNodeManagerDelete</a>(node_manager);</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="a716e5a75e04c42d9132f688ee06f9135" name="a716e5a75e04c42d9132f688ee06f9135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a716e5a75e04c42d9132f688ee06f9135">&#9670;&#160;</a></span>XGCoreSetNodeParamValueAsFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="c__api_8h.html#acadbade9570723320edc4aaf97139717">XG_API</a> bool XGCoreSetNodeParamValueAsFloat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a>&#160;</td>
+          <td class="paramname"><em>inout_manager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">xg_core::TNodeId&#160;</td>
+          <td class="paramname"><em>in_node_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>in_param_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the current value of a <b>Param</b> of a <b>Node</b> object as a Float. If the parameter has a type other than Float, the float value will be converted to the current parameter type. </p>
+<h3><a class="anchor" id="autotoc_md43"></a>
+Example code</h3>
+<div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#a5965c2a933752e86ef98f22f7fc0d0d3">XGCoreNodeManagerCreate</a>();</div>
+<div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#ace69c177c069bce6252569bfca336129">XGCoreGetNodeClassCount</a>(node_manager);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; node_class_count; ++i)</div>
+<div class="line">{</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a0bfa078a578b35840eb1633d97f879b6">XGCoreGetNodeClassIdByClassIndex</a>(node_manager, i);</div>
+<div class="line">    <span class="keywordflow">if</span> (!<a class="code hl_function" href="c__api_8cpp.html#a1497c6a432cedb2233a8e6a6c4796680">XGCoreGetNodeClassPropertyAsInt</a>(node_manager, class_id, xg_core::encpAllowCreate)) <span class="keywordflow">continue</span>;</div>
+<div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a8f31fac7cb716b2706b0dcbfd24b18a3">XGCoreAddNode</a>(node_manager, class_id, <span class="keyword">true</span>);</div>
+<div class="line">}</div>
+<div class="line"><span class="keywordtype">int</span> node_count = <a class="code hl_function" href="c__api_8cpp.html#a44c00e08e28910e5c3d8ee0225113538">XGCoreGetNodeCount</a>(node_manager);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; node_count; ++i)</div>
+<div class="line">{</div>
+<div class="line">    xg_core::TNodeId node_id = <a class="code hl_function" href="c__api_8cpp.html#a205c3cf07c78c765fe3545933d610b9c">XGCoreGetNodeIdByNodeIndex</a>(node_manager, i);</div>
+<div class="line">    xg_core::TNodeClassId class_id = <a class="code hl_function" href="c__api_8cpp.html#a502f26a384527c0b17612753e9d50155">XGCoreGetNodeClassIdByNodeId</a>(node_manager, node_id);</div>
+<div class="line">    <span class="keywordtype">int</span> node_class_name_len = <a class="code hl_function" href="c__api_8cpp.html#a33513e0c6178812f4520764e18c33e0e">XGCoreGetNodeClassName</a>(node_manager, class_id, <span class="keyword">nullptr</span>);</div>
+<div class="line">    std::unique_ptr&lt;char[]&gt; node_class_name(<span class="keyword">new</span> <span class="keywordtype">char</span>[node_class_name_len]);</div>
+<div class="line">    <a class="code hl_function" href="c__api_8cpp.html#a33513e0c6178812f4520764e18c33e0e">XGCoreGetNodeClassName</a>(node_manager, class_id, node_class_name.get());</div>
+<div class="line">    std::string s = <span class="stringliteral">&quot;node #&quot;</span> + std::to_string(i + 1) + <span class="stringliteral">&quot; (&quot;</span> + std::string(node_class_name.get()) + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line">    puts(s.c_str());</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordtype">int</span> param_count = <a class="code hl_function" href="c__api_8cpp.html#a55e64082fa87a9e392b5d30ff772c5f2">XGCoreGetNodeParamCount</a>(node_manager, node_id);</div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> p = 0; p &lt; param_count; ++p)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordtype">int</span> delta = int((rand() / (<span class="keywordtype">float</span>)RAND_MAX) * 30 - 15);</div>
+<div class="line">        xg_core::ENodeParamType param_type = <a class="code hl_function" href="c__api_8cpp.html#adc9500b2f15b1d4a1373965caf8411e3">XGCoreGetNodeParamType</a>(node_manager, node_id, p);</div>
+<div class="line">        <span class="keywordflow">switch</span> (param_type)</div>
+<div class="line">        {</div>
+<div class="line">        <span class="keywordflow">case</span> xg_core::enptBool:</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">bool</span> value = <a class="code hl_function" href="c__api_8cpp.html#a6921cdf908fb447a2146b3b255d487b8">XGCoreGetNodeParamValueAsBool</a>(node_manager, node_id, p);</div>
+<div class="line">            <span class="keywordflow">if</span> (delta &gt; 0) value = <span class="keyword">true</span>;</div>
+<div class="line">            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (delta &lt; 0) value = <span class="keyword">false</span>;</div>
+<div class="line">            <a class="code hl_function" href="c__api_8cpp.html#ab01d546fc5f8799be9a1173743b2cb1b">XGCoreSetNodeParamValueAsBool</a>(node_manager, node_id, p, value);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">case</span> xg_core::enptInt:</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">int</span> value = <a class="code hl_function" href="c__api_8cpp.html#acffb3711633777a9c1779f96559920a6">XGCoreGetNodeParamValueAsInt</a>(node_manager, node_id, p);</div>
+<div class="line">            value += delta;</div>
+<div class="line">            <a class="code hl_function" href="c__api_8cpp.html#a20c3dd977a08d6666a449add0175d131">XGCoreSetNodeParamValueAsInt</a>(node_manager, node_id, p, value);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">case</span> xg_core::enptFloat:</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">float</span> value = <a class="code hl_function" href="c__api_8cpp.html#a8bb971730660b9aeae619685ab944a77">XGCoreGetNodeParamValueAsFloat</a>(node_manager, node_id, p);</div>
+<div class="line">            value += delta * 0.01f;</div>
+<div class="line">            <a class="code hl_function" href="c__api_8cpp.html#a716e5a75e04c42d9132f688ee06f9135">XGCoreSetNodeParamValueAsFloat</a>(node_manager, node_id, p, value);</div>
+<div class="line">            <span class="keywordflow">break</span>;</div>
+<div class="line">        }</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        std::string s = <span class="stringliteral">&quot;param #&quot;</span> + std::to_string(p + 1);</div>
+<div class="line">        puts(s.c_str());</div>
+<div class="line">        <span class="keywordtype">int</span> json_len = <a class="code hl_function" href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">XGCoreGetNodeParamAsJson</a>(node_manager, node_id, p, <span class="keyword">nullptr</span>);</div>
+<div class="line">        std::unique_ptr&lt;char[]&gt; json(<span class="keyword">new</span> <span class="keywordtype">char</span>[json_len]);</div>
+<div class="line">        <a class="code hl_function" href="c__api_8cpp.html#ae7f3ff6f6b67378917a5eaf4b293701b">XGCoreGetNodeParamAsJson</a>(node_manager, node_id, p, json.get());</div>
+<div class="line">        puts(json.get());</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"><a class="code hl_function" href="c__api_8cpp.html#ab03784e3f3fa53dc357e22823d97ba1d">XGCoreNodeManagerDelete</a>(node_manager);</div>
+</div><!-- fragment --> 
+</div>
+</div>
 <a id="a50167ace8cdb3eb864dd1c37cbc856cb" name="a50167ace8cdb3eb864dd1c37cbc856cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50167ace8cdb3eb864dd1c37cbc856cb">&#9670;&#160;</a></span>XGCoreSetNodeParamValueAsString()</h2>
 
@@ -3000,8 +3400,8 @@ Example code</h3>
       </table>
 </div><div class="memdoc">
 
-<p>Set the current value of a <b>Param</b> of a <b>Node</b> object from a String. </p>
-<h3><a class="anchor" id="autotoc_md40"></a>
+<p>Set the current value of a <b>Param</b> of a <b>Node</b> object from a String. If the parameter has a type other than String, the string value will be converted to the current parameter type. </p>
+<h3><a class="anchor" id="autotoc_md44"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><a class="code hl_typedef" href="namespacexg__core.html#add57fccbcd6d1c0af0fd767f051dc265">xg_core::HNodeManager</a> node_manager = <a class="code hl_function" href="c__api_8cpp.html#a5965c2a933752e86ef98f22f7fc0d0d3">XGCoreNodeManagerCreate</a>();</div>
 <div class="line"><span class="keywordtype">int</span> node_class_count = <a class="code hl_function" href="c__api_8cpp.html#ace69c177c069bce6252569bfca336129">XGCoreGetNodeClassCount</a>(node_manager);</div>
@@ -3105,7 +3505,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Reset <b>Node</b> object settings/parameters to default values </p>
-<h3><a class="anchor" id="autotoc_md41"></a>
+<h3><a class="anchor" id="autotoc_md45"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keywordtype">int</span> image_buffer_size = 4;</div>
 <div class="line">xg_core::TColor image_buffer[image_buffer_size] = { {0.6, 0.7, 0.8}, {0.1, 0.2, 0.3}, {1, 0.5, 0}, {-1, -0.5, 1.5} };</div>
@@ -3127,7 +3527,7 @@ Example code</h3>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#adc54e59de04abc160d586d1055111183">XGCorePipelineProcessRgbBuffer</a>(node_manager, (<span class="keywordtype">float</span>*)image_buffer, image_buffer_size, 24);</div>
 <div class="line"> </div>
 <div class="line"><a class="code hl_function" href="c__api_8cpp.html#ab03784e3f3fa53dc357e22823d97ba1d">XGCoreNodeManagerDelete</a>(node_manager);</div>
-<div class="ttc" id="ac__api_8cpp_html_a83d5c054b06ef1909ee4764bdf56d120"><div class="ttname"><a href="c__api_8cpp.html#a83d5c054b06ef1909ee4764bdf56d120">XGCoreResetNode</a></div><div class="ttdeci">XG_API void XGCoreResetNode(xg_core::HNodeManager inout_manager, xg_core::TNodeId in_node_id)</div><div class="ttdoc">Reset Node object settings/parameters to default values</div><div class="ttdef"><b>Definition:</b> c_api.cpp:1961</div></div>
+<div class="ttc" id="ac__api_8cpp_html_a83d5c054b06ef1909ee4764bdf56d120"><div class="ttname"><a href="c__api_8cpp.html#a83d5c054b06ef1909ee4764bdf56d120">XGCoreResetNode</a></div><div class="ttdeci">XG_API void XGCoreResetNode(xg_core::HNodeManager inout_manager, xg_core::TNodeId in_node_id)</div><div class="ttdoc">Reset Node object settings/parameters to default values</div><div class="ttdef"><b>Definition:</b> c_api.cpp:2236</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -3158,7 +3558,7 @@ Example code</h3>
 </div><div class="memdoc">
 
 <p>Randomize <b>Node</b> object settings/parameters for rendering testing purposes.  </p>
-<h3><a class="anchor" id="autotoc_md42"></a>
+<h3><a class="anchor" id="autotoc_md46"></a>
 Example code</h3>
 <div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keywordtype">int</span> image_buffer_size = 4;</div>
 <div class="line">xg_core::TColor image_buffer[image_buffer_size] = { {0.6, 0.7, 0.8}, {0.1, 0.2, 0.3}, {1, 0.5, 0}, {-1, -0.5, 1.5} };</div>
