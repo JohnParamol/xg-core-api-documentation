@@ -14,6 +14,7 @@ var c__api_8cpp =
     [ "XGCoreNodeManagerDelete", "c__api_8cpp.html#ab03784e3f3fa53dc357e22823d97ba1d", null ],
     [ "XGCoreGetNodeClassCount", "c__api_8cpp.html#ace69c177c069bce6252569bfca336129", null ],
     [ "XGCoreGetNodeClassIdByClassIndex", "c__api_8cpp.html#a0bfa078a578b35840eb1633d97f879b6", null ],
+    [ "XGCoreGetNodeClassAsJson", "c__api_8cpp.html#a924cdfb04d63be859c3471388ff64ba9", null ],
     [ "XGCoreGetNodeClassName", "c__api_8cpp.html#a33513e0c6178812f4520764e18c33e0e", null ],
     [ "XGCoreGetNodeClassDescription", "c__api_8cpp.html#aa80a4b5c2c7eeb891d8110baed4b58de", null ],
     [ "XGCoreGetNodeClassPropertyAsInt", "c__api_8cpp.html#a1497c6a432cedb2233a8e6a6c4796680", null ],
