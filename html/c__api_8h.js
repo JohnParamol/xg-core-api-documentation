@@ -26,6 +26,7 @@ var c__api_8h =
     [ "XGCoreGetNodeClassPropertyAsInt", "c__api_8h.html#a1497c6a432cedb2233a8e6a6c4796680", null ],
     [ "XGCoreGetNodeCount", "c__api_8h.html#a44c00e08e28910e5c3d8ee0225113538", null ],
     [ "XGCoreGetNodeIdByNodeIndex", "c__api_8h.html#a205c3cf07c78c765fe3545933d610b9c", null ],
+    [ "XGCoreGetNodeAsJson", "c__api_8h.html#af4c89c2b90bfceac4c28e1d3359e188a", null ],
     [ "XGCoreGetNodeClassIdByNodeId", "c__api_8h.html#a502f26a384527c0b17612753e9d50155", null ],
     [ "XGCoreIsNodeExist", "c__api_8h.html#a579d2dce4060711df6cae2185b60193d", null ],
     [ "XGCoreAddNode", "c__api_8h.html#a8f31fac7cb716b2706b0dcbfd24b18a3", null ],
